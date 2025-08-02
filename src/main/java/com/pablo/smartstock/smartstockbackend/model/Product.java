@@ -11,12 +11,11 @@ public class Product {
     @GeneratedValue
     private UUID id;
 
-    private String nombre;
-    private String descripcion;
-    private String categoria;
-    private Double precio;
-    private Integer stockActual;
-    private Integer stockMinimo;
-    private LocalDate fechaUltimaCompra;
-
+    private String name;
+    private String description;
+    private String category;
+    private Double price;
+    private Integer currentStock;
+    private Integer minStock;
+    private LocalDate lastPurchaseDate;
 }
