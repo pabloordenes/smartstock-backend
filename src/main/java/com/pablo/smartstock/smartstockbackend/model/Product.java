@@ -1,9 +1,13 @@
 package com.pablo.smartstock.smartstockbackend.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.time.LocalDate;
 import java.util.UUID;
 
+
+@Data
 @Entity
 public class Product {
 
